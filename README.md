@@ -1,2 +1,4 @@
 # AWUG1
-Classe
+This are the exercises from class.
+
+
