@@ -1,0 +1,7 @@
+.counter{
+    border: 1px solid gray;
+    display: inline-block;
+}
+.counter .count{
+    font-size: 200%;
+}
