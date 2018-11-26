@@ -10,3 +10,6 @@ delete folder again
 
 npm install -g create-react-app
 create-react-app numbers
+
+install plugin:
+- ES7 React/Redux...
