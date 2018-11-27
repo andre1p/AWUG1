@@ -1,0 +1,9 @@
+.header {
+    padding: .5em .7em;
+    background-color: rgb(243, 191, 94);
+}
+
+.header .logo {
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+}
