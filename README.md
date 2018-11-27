@@ -9,9 +9,17 @@ delete the folder and put:
 delete folder again
 
 npm install -g create-react-app
+npm install -g eslint
+npm install -g json-server
+
+(Create "node_modules")
 create-react-app numbers
 
 install plugin:
 - ES7 React/Redux...
 
-npm install -g eslint
+npm install (installs a huge live-server(local))
+npm start (starts the live-server)
+
+(Create "node_modules")
+create-react-app frontend 
