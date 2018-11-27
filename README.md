@@ -13,3 +13,5 @@ create-react-app numbers
 
 install plugin:
 - ES7 React/Redux...
+
+npm install -g eslint
