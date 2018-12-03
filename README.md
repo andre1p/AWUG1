@@ -34,3 +34,4 @@ json-server --port 4000 --watch db.json
 ALT+Z 
 
 npm install axios (to frontend)
+npm install react-router-dom (to frontend)

@@ -4,13 +4,19 @@
             "id": "0",
             "title": "CITM",
             "url": "http://www.citm.upc.edu",
-            "score": 5
+            "score": 5,      
+            "author": "John Macarron",
+            "date": "03/11/2018",
+            "time": "11:11:11"
         },
         {
             "id": "1",
             "title": "UPC",
             "url": "http://www.upc.edu",
-            "score": 3
+            "score": 3,
+            "author": "Jordi Vives",
+            "date": "03/11/2018",
+            "time": "11:11:12"
         }
     ]
 }

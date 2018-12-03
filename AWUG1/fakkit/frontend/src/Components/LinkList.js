@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from "axios";
+import Link from "./Link";
 
 export default class LinkList extends Component {
     constructor() {
@@ -28,10 +29,10 @@ export default class LinkList extends Component {
         let { links } = this.state;
         return (
             <div>
-                {links.map(link =>
-                    <div key={link.id}>
-                        <a href={link.url}>{link.title}</a>
-                    </div>
+                {links.map((link, index) =>
+                    <Link key={link.id}
+                        index={index + 1}
+                        link={link} />
                 )}
             </div>
         )
