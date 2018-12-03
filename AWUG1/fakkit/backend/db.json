@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "id": "0",
+            "title": "CITM",
+            "url": "http://www.citm.upc.edu",
+            "score": 5
+        },
+        {
+            "id": "1",
+            "title": "UPC",
+            "url": "http://www.upc.edu",
+            "score": 3
+        }
+    ]
+}
