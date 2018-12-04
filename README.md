@@ -29,9 +29,12 @@ create-react-app frontend
 To start a json server:
 json-server db.json 
 Or choose a port server:
-json-server --port 4000 --watch db.json 
+json-server --port 4000 --watch -600 delay db.json 
+(Port for different server, watch to keep updated and delay to get a little delay with the connection)
 
 ALT+Z 
 
 npm install axios (to frontend)
 npm install react-router-dom (to frontend)
+
+ctrl+space (to see what is needed and what is optional)
