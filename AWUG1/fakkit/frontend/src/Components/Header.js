@@ -5,21 +5,27 @@ import Context from '../Context';
 
 export default class Header extends Component {
 
-  onLoginLogout = (e) => {
+  onLogout = (e) => {
     e.preventDefault(); //prevent reload from <a> element
-    if (this.context.user) {
-      this.context.doLogin(null);
-    } else {
-      this.context.doLogin("Andre1");
-    }
+    this.context.doLogin(null);
   }
 
   render() {
+    let loginLogout; 
+    let newLink;
+
+    if (this.context.user) {
+      loginLogout = <a className="new" href="." onClick={this.onLogout}>Logout</a>
+      newLink = <Link to="/new" className="new">New link</Link>
+    } else {
+      loginLogout = <Link to="/login" className="new"> Login </Link>
+    }
+    
     return (
       <div className="header">
-        <Link to="/new" className="new">New link</Link>
+        {newLink}
         <Link to="/" className="logo"> Fakkit </Link>
-        <a href="." onClick={this.onLoginLogout} className="new">{this.context.user ? "Logout" : "Login"}</a>
+        {loginLogout}
         <span className="username">{this.context.user}</span>
       </div>
     )

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import "./NewLink.css";
 import Axios from 'axios';
 

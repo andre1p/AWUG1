@@ -27,5 +27,15 @@
       "time": "11:05:52",
       "id": "dMVj4Mv"
     }
+  ],
+  "users": [
+    {
+      "id": "Andre1",
+      "password": "1234"
+    },
+    {
+      "id": "vivas",
+      "password": "abcd"
+    }
   ]
 }

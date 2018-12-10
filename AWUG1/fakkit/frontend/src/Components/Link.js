@@ -8,7 +8,7 @@ export default class Link extends Component {
         let { link, index } = this.props;
         let upvote = null;
         if (this.context.user) {
-            upvote = " up ";
+            upvote = <div className="uparrow"></div>;
         }
         return (
             <div className="link">

@@ -5,7 +5,7 @@ import LinkList from "./Components/LinkList";
 import NewLink from "./Components/NewLink"
 import './App.css';
 import Context from './Context';
-
+import LoginForm from './Components/LoginForm';
 class App extends Component {
   constructor() {
     super();
@@ -29,6 +29,8 @@ class App extends Component {
               component={LinkList} />
             <Route path="/new"
               component={NewLink} />
+            <Route path ="/login" 
+              component={LoginForm}/>
           </div>
         </Router>
       </Context.Provider>
