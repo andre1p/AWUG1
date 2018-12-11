@@ -24,7 +24,6 @@ npm start (starts the live-server)
 (Create "node_modules")
 create-react-app frontend 
 
-# NEW
 
 To start a json server:
 json-server db.json 
@@ -38,3 +37,7 @@ npm install axios (to frontend)
 npm install react-router-dom (to frontend)
 
 ctrl+space (to see what is needed and what is optional)
+
+#NEW
+in frontend insta:
+npm install lodash (library to clone everything)

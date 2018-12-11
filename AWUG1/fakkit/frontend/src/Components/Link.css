@@ -19,10 +19,14 @@
     color: gray;
     font-size: 12px;
 }
-.link .uparrow {
-    height: 10px;
+.link .uparrow, .link .arrowspace {
     width: 10px;
-    background-color: rgb(192, 192, 192);
     margin: .4em .2em .2em .2em;
+}
+
+.link .uparrow {
+    background-color: rgb(192, 192, 192);
+    height: 10px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    cursor: pointer;
 }

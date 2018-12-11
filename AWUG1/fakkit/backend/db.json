@@ -4,28 +4,43 @@
       "id": "0",
       "title": "CITM",
       "url": "http://www.citm.upc.edu",
-      "score": 5,
-      "author": "John Macarron",
-      "date": "03/11/2018",
-      "time": "11:11:11"
+      "author": "Vivas",
+      "date": "03/11/2018 11:11:11"
     },
     {
       "id": "1",
       "title": "UPC",
       "url": "http://www.upc.edu",
-      "score": 3,
-      "author": "Jordi Vives",
-      "date": "03/11/2018",
-      "time": "11:11:12"
+      "author": "Andre1",
+      "date": "03/11/2018 11:11:12"
     },
     {
       "title": "Google",
       "url": "http://www.google.com",
-      "author": "Jordi Novives",
-      "score": 0,
-      "date": "03/11/2018",
-      "time": "11:05:52",
+      "author": "Vivas",
+      "date": "03/11/2018 11:05:52",
       "id": "dMVj4Mv"
+    },
+    {
+      "title": "Udemy",
+      "url": "http://www.udemy.com",
+      "date": "2018-12-11 09:41:39",
+      "author": "Vivas",
+      "id": "_rABU1E"
+    },
+    {
+      "title": "Andre1",
+      "url": "https://www.andre1.es",
+      "date": "2018-12-11 09:41:39",
+      "author": "Andre1",
+      "id": "SYdmgny"
+    },
+    {
+      "title": "Github",
+      "url": "https://www.github.com",
+      "author": "Vivas",
+      "date": "2018-12-11 09:41:39",
+      "id": "pTwmgzq"
     }
   ],
   "users": [
@@ -34,8 +49,45 @@
       "password": "1234"
     },
     {
-      "id": "vivas",
+      "id": "Vivas",
       "password": "abcd"
+    }
+  ],
+  "votes": [
+    {
+      "id": 1,
+      "userId": "Vivas",
+      "linkId": "dMVj4Mv"
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 2
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 3
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 4
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 5
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 6
+    },
+    {
+      "userId": "Andre1",
+      "linkId": "0",
+      "id": 7
     }
   ]
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./NewLink.css";
 import Axios from 'axios';
+import Context from '../Context';
 
 const Field = (props) =>
     <div className="field">
@@ -26,23 +27,24 @@ export default class NewLink extends Component {
         this.setState({
             URL: e.target.value
         })
-    } 
+    }
 
     onChange = (field) => (e) => {
-        this.setState({[field]: e.target.value})
+        this.setState({ [field]: e.target.value })
     } //Combined version of two above
 
     onSubmit = (e) => {
         e.preventDefault(); //Prevent the form from loading a new page
-
+        let date = new Date();
         Axios.post("http://localhost:4000/links", {
             title: this.state.title,
             url: this.state.URL,
-            author: "Jordi Novives"
+            author: this.context.user,
+            date: date,
         }).then(response => {
             // Change the page to the root page _without_ keeping the current page in the history
             this.props.history.replace("/");
-        }).catch(error =>{
+        }).catch(error => {
             console.log(error);
         })
     }
@@ -60,3 +62,4 @@ export default class NewLink extends Component {
         )
     }
 }
+NewLink.contextType = Context;
