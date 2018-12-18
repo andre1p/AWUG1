@@ -1,0 +1,30 @@
+html { font-family: sans-serif; }
+
+.person {
+  padding: .4em;
+  cursor: pointer;
+  font-size: 11pt;
+}
+
+.lastname {
+  margin-left: .5em;
+}
+
+.person-list {
+  border: 1px solid gray;
+  height: 20em;
+  width: 15em;
+  overflow-y: scroll;
+  margin: 0 .5em;
+}
+
+.person.selected {
+  background-color: black;
+  color: white;
+}
+
+.buttons {
+  display: inline-flex;
+  flex-direction: column;
+  align-self: center;
+}
